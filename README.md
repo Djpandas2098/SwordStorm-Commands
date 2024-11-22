@@ -70,25 +70,6 @@ This documentation outlines the various commands available in the game for teste
 
 ---
 
-**7. !debug [key],[value]**  
-- **Purpose**: Change any player's data field dynamically by specifying the key and value.  
-- **Usage**:  
-    `!debug [key],[value]`  
-- **Example**:  
-    `!debug Data.Accessories.Neck, Golden Necklace`  
-    `!debug Data.Yen, 1000`  
-- **Permissions**: **Group Owners** and **Testers** can use this command.  
-- **What it does**: This command allows the tester to modify any player's data using dot notation to specify the key and value to change.  
-    - The `key` can be a path to any value in the player's data structure (e.g., Data.Accessories.Neck).  
-    - The `value` can be a **string**, **number**, or **boolean** (e.g., "Golden Necklace", 1000, or true).  
-    - Examples of accepted values:  
-        - true (for boolean)  
-        - false (for boolean)  
-        - 1000 (for number)  
-        - "Golden Necklace" (for string)  
-
----
-
 **8. !corearm**  
 - **Purpose**: Equip the player with a Core Arm.  
 - **Usage**:  
