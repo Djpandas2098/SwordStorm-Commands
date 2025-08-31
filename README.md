@@ -12,7 +12,7 @@ These commands are accessible to general testers for basic gameplay testing and 
 
 | Command | Description |
 |--------|-------------|
-| `AddYen (player) (amount)` | Adds a specified amount of Yen to the player. |
+| `SetGold (player) (amount)` | Sets the player's Yen/Gold to the specified amount. |
 | `ChangeElement (player) (elementname)` | Changes the player's current element to the specified element. |
 | `ChangeRace (player) (racename)` | Changes the player's race to the specified race. |
 | `ChangeWeapon (player) (weaponname)` | Changes the player's weapon to the specified weapon. |
@@ -28,9 +28,8 @@ These are advanced commands for simulating more specific gameplay scenarios and 
 |--------|-------------|
 | `GiveClothing (player) (clothing/armor name)` | Gives the specified clothing or armor to the player. |
 | `GiveMobDrop (player) (biome/folderpath) (dropname)` | Gives the specified mob drop to the player from a specified biome or path. |
-| `GiveStat (player) (amount)` | Adds the specified amount to the player's stat points. |
-| `ResetStat (player) (“Stat” + statname)` | Resets a specific stat on the player. Use format `"StatStrength"`, `"StatAgility"`, etc. |
-| `TeleportTestMap (player)` | Teleports the player to the test map. |
+| `GiveItem (player) (itemname)` | Gives the specified item to the player. |
+| `ResetPoints (player)` | Resets all of the player's invested stat points and returns them to be reassigned. |
 
 ---
 
