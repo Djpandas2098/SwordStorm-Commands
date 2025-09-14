@@ -2,7 +2,7 @@
 
 ## Press ` to access the command line
 
-## Dont forget to do ":" before every command.
+## Don’t forget to do ":" before every command.
 
 ---
 
@@ -17,6 +17,8 @@ These commands are accessible to general testers for basic gameplay testing and 
 | `ChangeRace (player) (racename)` | Changes the player's race to the specified race. |
 | `ChangeWeapon (player) (weaponname)` | Changes the player's weapon to the specified weapon. |
 | `GiveExp (player) (amount)` | Gives the player a specified amount of experience. |
+| `SetFragment (player) (fragmentname)` | Sets the player’s equipped fragment to the specified fragment. |
+| `SpawnMob (player) (biome) (mobname)` | Spawns a mob from the specified biome at the player’s position. |
 
 ---
 
@@ -27,8 +29,8 @@ These are advanced commands for simulating more specific gameplay scenarios and 
 | Command | Description |
 |--------|-------------|
 | `GiveClothing (player) (clothing/armor name)` | Gives the specified clothing or armor to the player. |
-| `GiveMobDrop (player) (biome/folderpath) (dropname)` | Gives the specified mob drop to the player from a specified biome or path. |
-| `GiveItem (player) (itemname)` | Gives the specified item to the player. |
+| `GiveItem (player) (itemname)` | Gives the specified item from ServerStorage to the player’s backpack. |
+| `GiveSkill (player) (skillname)` | Gives the specified skill to the player via the skill system. |
 | `ResetPoints (player)` | Resets all of the player's invested stat points and returns them to be reassigned. |
 
 ---
