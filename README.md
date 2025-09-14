@@ -19,6 +19,7 @@ These commands are accessible to general testers for basic gameplay testing and 
 | `GiveExp (player) (amount)` | Gives the player a specified amount of experience. |
 | `SetFragment (player) (fragmentname)` | Sets the player’s equipped fragment to the specified fragment. |
 | `SpawnMob (player) (biome) (mobname)` | Spawns a mob from the specified biome at the player’s position. |
+| `SpawnDummy (player) (type)` | Spawns a dummy of the specified type at the player’s position. |
 
 ---
 
