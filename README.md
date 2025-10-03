@@ -18,6 +18,7 @@ These commands are accessible to general testers for basic gameplay testing and 
 | `ChangeWeapon (player) (weaponname)` | Changes the player's weapon to the specified weapon. |
 | `GiveExp (player) (amount)` | Gives the player a specified amount of experience. |
 | `SetFragment (player) (fragmentname)` | Sets the player's equipped fragment to the specified fragment. |
+| `SetUtility (player) (utilityname)` | Sets the players's equipped utility to the specified utility. |
 | `SetEnchantment (player) (enchant)` | Sets the player's enchantment to the specified enchantment. |
 | `SpawnMob (player) (biome) (mobname)` | Spawns a mob from the specified biome at the player's position. |
 | `SpawnDummy (player) (type)` | Spawns a dummy of the specified type at the player's position. |
