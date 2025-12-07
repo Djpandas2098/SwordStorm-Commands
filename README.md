@@ -1,8 +1,6 @@
-# Tester & Admin Commands Documentation
+# Tester Commands Documentation
 
 ## Press ` to access the command line
-
-## Don't forget to do ":" before every command.
 
 ---
 
@@ -12,55 +10,23 @@ These commands are accessible to general testers for basic gameplay testing and 
 
 | Command | Description |
 |---------|-------------|
-| `SetGold (player) (amount)` | Sets the player's Yen/Gold to the specified amount. |
-| `ChangeElement (player) (elementname)` | Changes the player's current element to the specified element. |
-| `ChangeRace (player) (racename)` | Changes the player's race to the specified race. |
-| `ChangeWeapon (player) (weaponname)` | Changes the player's weapon to the specified weapon. |
-| `GiveExp (player) (amount)` | Gives the player a specified amount of experience. |
-| `SetFragment (player) (fragmentname)` | Sets the player's equipped fragment to the specified fragment. |
-| `SetUtility (player) (utilityname)` | Sets the players's equipped utility to the specified utility. |
-| `SetEnchantment (player) (enchant)` | Sets the player's enchantment to the specified enchantment. |
-| `SpawnMob (player) (biome) (mobname)` | Spawns a mob from the specified biome at the player's position. |
-| `SpawnDummy (player) (type)` | Spawns a dummy of the specified type at the player's position. |
+| `ApplyStatus (player) (statusname)` | Apply a status effect to the player. |
+| `SetElement (player) (elementname)` | Change the player's element to the specified element. |
+| `SetRace (player) (racename)` | Change the player's race to the specified race. |
+| `SetSeason (player) (season)` | Change the game's current season. |
+| `SetWeapon (player) (weaponname)` | Change the player's weapon to the specified weapon. |
+| `SetClothing (player) (clothingname)` | Give the specified clothing or armor to the player. |
+| `SetExp (player) (amount)` | Give the player a specified amount of experience. |
+| `SetHealth (player) (amount)` | Set the player's health to the specified amount. |
+| `SetQuestProgress (player) (action) (amount)` | Progress the player's quest by specified amount. |
+| `ResetPoints (player)` | Reset all of the player's invested stat points. |
+| `SetAbyss (player) (abyssvalue)` | Set the player's abyss value. |
+| `SetEnchantment (player) (enchantname)` | Set the player's enchantment to the specified enchantment. |
+| `SetFragment (player) (fragmentname)` | Set the player's equipped fragment. |
+| `SetGold (player) (goldamount)` | Set the player's gold to the specified amount. |
+| `SetUtility (player) (utilityname)` | Set the player's equipped utility. |
+| `SpawnDummy (player) (type)` | Spawn a dummy of the specified type at player's position. |
 
 ---
 
-## Advanced Tester Commands
-
-These are advanced commands for simulating more specific gameplay scenarios and character customization.
-
-| Command | Description |
-|---------|-------------|
-| `GiveClothing (player) (clothing/armor name)` | Gives the specified clothing or armor to the player. |
-| `GiveItem (player) (itemname)` | Gives the specified item from ServerStorage to the player's backpack. |
-| `GiveSkill (player) (skillname)` | Gives the specified skill to the player via the skill system. |
-| `ResetPoints (player)` | Resets all of the player's invested stat points and returns them to be reassigned. |
-
----
-
-## Miscellaneous Tester Commands
-
-Commands that help with quality-of-life testing functionality and player management.
-
-| Command | Description |
-|---------|-------------|
-| `GotoTester (player) (player_to_teleport_to)` | Teleports one player to another tester. |
-| `HealTester (player)` | Fully restores the player's health. |
-| `KillTester (player)` | Kills the tester. Can only be used on yourself. |
-| `ResetTester (player)` | Resets the tester's state (alternative to kill). |
-
----
-
-## Admin Commands
-
-High-level admin-only commands used for advanced access and debug features.
-
-| Command | Description |
-|---------|-------------|
-| `GiveAdminSpecs (player)` | Grants special admin-specific specs to the player. |
-| `GiveEarlySpecs (player)` | Grants early-access or developer specs to the player. |
-| `SpiritualPressure (player)` | Activates or simulates a spiritual pressure effect on the player. |
-
----
-
-> Note: Always double-check arguments. Improper use of commands may result in unexpected behavior.
+> Note: Commands use the format: `commandname arguments` (no prefix needed).
